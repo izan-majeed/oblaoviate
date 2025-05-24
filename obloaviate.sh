@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "✨ Welcome to Oblaoviate — The Bloatware Remover ✨"
+echo "✨ Welcome to Obloaviate — The Bloatware Remover ✨"
 
 if [ -z "$1" ]; then
-  echo "Usage: ./oblaoviate.sh <device_brand>"
-  echo "Example: ./oblaoviate.sh xiaomi"
+  echo "Usage: ./obloaviate.sh <device_brand>"
+  echo "Example: ./obloaviate.sh xiaomi"
   exit 1
 fi
 
@@ -26,4 +26,4 @@ for package in "${packages[@]}"; do
   fi
 done
 
-echo "✅ Oblaoviate complete — all selected bloatware has been purged from '$1'."
+echo "✅ Obloaviate complete — all selected bloatware has been purged from '$1'."
