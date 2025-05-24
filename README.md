@@ -1,6 +1,6 @@
-# ✨ Oblaoviate — The Bloatware Remover ✨
+# ✨ Obloaviate — The Bloatware Remover ✨
 
-**Oblaoviate** is a magical shell script that helps you remove bloatware from your Android device using `adb`. It works by targeting device-specific lists of pre-installed apps and uninstalling them for the current user.
+**Obloaviate** is a magical shell script that helps you remove bloatware from your Android device using `adb`. It works by targeting device-specific lists of pre-installed apps and uninstalling them for the current user.
 
 ---
 
@@ -25,4 +25,4 @@ Each device has its own "spell scroll" stored in the `devices/` folder — a pla
 ### 🪄 Run the Script
 
 ```bash
-./oblaoviate.sh <device_brand>
+./obloaviate.sh <device_brand>
